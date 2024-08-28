@@ -8,10 +8,6 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Creative Agency - Ada Ada Aja!</title>
-      </Head>
-
       <Header />
       <Hero />
       <Guarantee />
