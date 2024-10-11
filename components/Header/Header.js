@@ -9,7 +9,7 @@ const signika = Signika({
 
 const Header = () => {
   return (
-    <header className="flex items-center gap-10 bg-[#09745F] p-4">
+    <header className="flex items-center gap-10 bg-[#09745F] p-4 fixed w-full z-[100000]">
       {/* Logo */}
       <Link href="/">
         <figure>

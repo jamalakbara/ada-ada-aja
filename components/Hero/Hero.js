@@ -13,8 +13,8 @@ const quicksand = Quicksand({
 
 const Hero = () => {
   return (
-    <section className={`${signika.className} flex w-full h-[75vh] bg-[#FAF8F1]`}>
-      <div class="basis-1/2 text-black flex flex-col gap-2 justify-center p-10">
+    <section className={`${signika.className} flex w-full h-lvh bg-[#FAF8F1]`}>
+      <div className="basis-1/2 text-black flex flex-col gap-2 justify-center p-10">
         <div className="w-3/4 self-center">
             <p className="font-extrabold tracking-widest text-4xl leading-8">PALING CREATIVE PALING EFEKTIF BIKIN KONTEN FYP MAH GAMPANG... GA PERCAYA?</p>
             <h1 className="mt-4 text-base">KONSULTASIIN  DULU DI ADAADAAJA!</h1>
@@ -22,9 +22,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <div class="basis-1/2">
+      <div className="basis-1/2 bg-[url(/img/asset1.jpg)] bg-cover bg-fixed bg-center">
         {/* image with full width and height to its div with tailwind classname */}
-        <figure className="relative w-full h-full">
+        {/* <figure className="relative w-full h-full">
           <Image
             src="/img/asset1.jpg"
             alt="Hero Image"
@@ -32,7 +32,7 @@ const Hero = () => {
             objectFit="cover"
             objectPosition="center"
           />
-        </figure>
+        </figure> */}
       </div>
     </section>
   )

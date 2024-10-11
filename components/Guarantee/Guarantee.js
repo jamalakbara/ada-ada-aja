@@ -9,7 +9,7 @@ const Guarantee = () => {
   return (
     <section className={`${signika.className} text-[#09745F] bg-[#FBF156] flex flex-col gap-8 items-center px-10 py-24`} style={
       {
-        clipPath: 'polygon(0 0, 100% 0, 100% 89%, 0 100%);'
+        clipPath: 'polygon(0 0, 100% 0, 100% 89%, 0 100%)'
       }
     }>
       <h2 className="font-bold text-5xl">GUARANTEE</h2>

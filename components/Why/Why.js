@@ -11,7 +11,7 @@ const quicksand = Quicksand({
 const Why = () => {
   return (
     <section className={`${signika.className} text-black flex flex-col gap-8 items-center px-10 py-24`}>
-      <h2 className="font-bold text-5xl">KENAPA ADA ADA AJA ?</h2>
+      <h2 className="font-bold text-5xl text-center">KENAPA ADA ADA AJA ?</h2>
 
       <ul className="flex flex-wrap items-center justify-center gap-4">
         <li className="basis-1/3 flex flex-col gap-4 border rounded-md p-4 border-[#09745F]">
